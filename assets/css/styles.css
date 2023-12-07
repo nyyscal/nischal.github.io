@@ -505,22 +505,22 @@ img {
 }
 
 .skills__html{
-  width: 90%;
+  width: 80%;
 }
 .skills__css{
-  width: 80%;
+  width: 75%;
 }
 .skills__js{
   width: 60%;
 }
 .skills__react{
-  width: 80%;
+  width: 60%;
 }
 .skills__php{
-  width: 80%;
+  width: 70%;
 }
 .skills__node{
-  width: 70%;
+  width: 60%;
 }
 .skills__firebase{
   width: 60%;
@@ -528,15 +528,14 @@ img {
 .skills__python{
   width: 60%;
 }
-
-.skills__figma{
-  width: 90%;
+.skills_figma{
+  width: 60%;
 }
 .skills__sketch{
-  width: 80%;
+  width: 60%;
 }
 .skills__photoshop{
-  width: 85%;
+  width: 75%;
 }
 
 .skills__close .skills__list{
@@ -1045,21 +1044,6 @@ img {
     width: 200px;
   }
 
-  .testimonial__data,
-  .testimonial__header{
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .testimoniall__img{
-    margin-right: 0;
-    margin-bottom: var(--mb-0-25);
-  }
-  .testimonial__data,
-  .testimonial__description{
-    text-align: center;
-  }
-
 }
 
 /* For medium devices */
@@ -1068,7 +1052,7 @@ img {
     grid-template-columns: max-content 1fr 1fr;
   }
   .home__data{
-    grid:initiall
+    grid-column:initial;
   }
   .home__img{
     order: 1;
@@ -1250,7 +1234,7 @@ img {
 }
 
 /* For large devices */
-@media screen and(min-width: 1024px){
+@media screen and (min-width: 1024px){
   .header,
   .main,
   .footer__container{
@@ -1258,38 +1242,42 @@ img {
   }
 
   .home__blob{
-    margin: 320px;
+    width: 320px;
   }
+
   .home__social{
     transform: translateX(-6rem);
+   }
 
-    .services__container{
+  .services__container{
       grid-template-columns: repeat(3, 238px);
     }
 
-    .portfolio__content{
+  .portfolio__content{
       column-gap: 5rem;
     }
 
-    .swiper-portfolio-icon{
+  .swiper-portfolio-icon{
       font-size: 3.5rem;
     }
 
-    .swiper-button-prev{
-      left:-3.5rem;
+  .swiper-button-prev{
+      left: -3.5rem;
     }
-    .swiper-button-next{
+
+  .swiper-button-next{
       right: -3.5rem;
     }
-    .swiper-container-horizontal > .swiper-pagination-bullets{
+
+  .swiper-container-horizontal > .swiper-pagination-bullets{
       bottom: -4.5rem;
     }
 
-    .contact__form{
+  .contact__form{
       width: 460px;
     }
-    .contacts__inputs{
+
+  .contact__inputs{
       grid-template-columns: repeat(2, 1fr);
     }
-  }
 }
