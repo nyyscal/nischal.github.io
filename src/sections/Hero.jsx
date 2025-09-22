@@ -16,7 +16,7 @@ const Hero = () => {
   });
 
   return (
-    <section id="hero" className="relative overflow-hidden">
+    <section id="hero" className="relative overflow-hidden scrollbar-hide">
       <div className="absolute top-0 left-0 z-10">
         <img src="/images/bg.png" alt="" />
       </div>
@@ -27,7 +27,7 @@ const Hero = () => {
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
-                Shaping
+                Turning Your
                 <span className="slide">
                   <span className="wrapper">
                     {words.map((word, index) => (
@@ -46,17 +46,17 @@ const Hero = () => {
                   </span>
                 </span>
               </h1>
-              <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
+              <h1>into Reality</h1>
+              <h1>with Perfection</h1>
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Adrian, a developer based in Croatia with a passion for
-              code.
+              Hi, I’m Nischal, a developer with a passion for
+              coding.
             </p>
 
             <Button
-              text="See My Work"
+              text="Explore"
               className="md:w-80 md:h-16 w-60 h-12"
               id="counter"
             />

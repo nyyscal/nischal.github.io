@@ -12,7 +12,7 @@ import Footer from "./sections/Footer"
 function App() {
 
   return (
-    <>
+    <main className="overflow-auto scrollbar-hide">
     <NavBar/>
     <Hero/>
     <ShowcaseSection/>
@@ -23,7 +23,7 @@ function App() {
     {/* <Testimonials/> */}
     <Contact/>
     <Footer/>
-    </>
+    </main>
   )
 }
 
