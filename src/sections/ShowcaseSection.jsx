@@ -49,8 +49,8 @@ const ShowcaseSection = () => {
               <img src="/images/project1.png" alt="Ride" />
             </div>
             <div className='text-content'>
-              <h2>On Demand Ride Made Simple with a Powerful, User-Friendlty App</h2>
-              <p className='text-white-50 md:text-xl'>An app built with React Native,Expo & TailwindCSS for a faster, user-friendly experience.</p>
+              <h2>A Cloud Storage Management System Made Simple with a Powerful, User-Friendly App</h2>
+              <p className='text-white-50 md:text-xl'>An app built with NextJS, Appwrite & TailwindCSS for a faster, user-friendly experience.</p>
             </div>
           </div>
           {/* Right */}
@@ -60,14 +60,14 @@ const ShowcaseSection = () => {
               <div className='image-wrapper bg-[#ffefdb]'>
                 <img src="/images/project2.png" alt="Library Management" />
               </div>            
-              <h2>Library Management Platform</h2>
+              <h2>Codiverse - An online Coding Platform</h2>
             </div>
 
             <div className='project' ref={project3Ref}>
               <div className='image-wrapper bg-[#ffe7eb]'>
                 <img src="/images/project3.png" alt="YC Directory" />
               </div>            
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>ChatIO - A real time messaging app using Websockets</h2>
             </div>
 
           </div>
